@@ -1,8 +1,11 @@
-# InfinityGif: Aplicación de Scroll Infinito para Buscar y Descargar Gifs
+# InfinityGif 
+
+## Descripción
+Bienvenido a InfinityGif, una aplicación web que te permite explorar y descargar gifs de manera infinita a medida que haces scroll. 
+
+Para el desarrollo de InfinityGif he utilizado la [API](https://developers.giphy.com/explorer/) de GIPHY, la cual proporciona una gran cantidad de recursos como clips, gifs y stickers.
 
 ![InfinityGif Demo](demo.gif)
-
-Bienvenido a InfinityGif, una aplicación web que te permite explorar y descargar gifs de manera infinita a medida que haces scroll. Ya no tendrás que preocuparte por quedarte sin gifs divertidos para compartir, ¡porque InfinityGif te proporciona un suministro inagotable de contenido animado!
 
 ## Características
 
@@ -10,59 +13,49 @@ Bienvenido a InfinityGif, una aplicación web que te permite explorar y descarga
 
 - **Búsqueda Rápida:** Utiliza la función de búsqueda para encontrar gifs específicos por palabras clave, asegurando que siempre encuentres lo que estás buscando.
 
-- **Descarga Fácil:** Descarga tus gifs favoritos con un solo clic y guárdalos en tu dispositivo para compartirlos en cualquier momento.
-
-- **Categorías Populares:** Explora gifs organizados en categorías populares como diversión, deportes, animales, memes y mucho más.
+- **Descarga Fácil:** Descarga tus gifs favoritos con un solo clic.
 
 - **Diseño Responsivo:** InfinityGif se adapta perfectamente a diferentes dispositivos, incluyendo teléfonos móviles, tabletas y computadoras de escritorio.
 
-## Cómo Usar
+## Instalación
+Clona el repositorio de InfinityGif desde GitHub
+Navega al directorio del proyecto
+Instala las dependencias
+Inicia la aplicación
 
-1. Ingresa a la página principal de InfinityGif en tu navegador web.
+```shell
+$ git clone https://github.com/MiguelMR86/InfinityGif
+$ cd InfinityGif
+$ code . # En caso de que lo tengas configurado
+$ npm install
+$ npm run dev
+```
 
-2. Explora automáticamente los gifs mientras haces scroll hacia abajo. Los gifs se cargarán automáticamente a medida que te acerques al final de la página.
+## 💻 Tecnologías
+**Front-end:**
+* HTML
+* Tailwind
+* JavaScript
+* React ( icons )
+* Material-Tailwind
 
-3. Para buscar gifs específicos, utiliza la barra de búsqueda en la parte superior de la página. Ingresa palabras clave relacionadas con el tipo de gif que deseas encontrar y presiona Enter.
+**Back-end**
+* Node
+* Vite
 
-4. Cuando encuentres un gif que te guste, simplemente haz clic en el botón de descarga que aparece al pasar el mouse sobre el gif. El gif se descargará y se guardará en tu dispositivo.
+## 🤝 Contribuciones
+¡Gracias por considerar contribuir a InfinityGif! Si deseas colaborar conmigo, por favor sigue estos pasos:
 
-## Tecnologías Utilizadas
+Realiza un fork del repositorio.
+Crea una rama para tu función/ajuste: git checkout -b feature/nueva_funcion
+Realiza los cambios y realiza commits con mensajes descriptivos: git commit -m "Agrega nueva función"
+Envía tus cambios al repositorio: git push origin feature/nueva_funcion
+Abre un Pull Request describiendo tus cambios detalladamente.
 
-InfinityGif se ha desarrollado utilizando las siguientes tecnologías:
+📱 ## Contacto
+Si tienes alguna pregunta, problema o sugerencia, por favor abre un issue en el repositorio.
 
-- HTML5: Estructura y contenido de la página web.
-- CSS3: Estilos y diseño responsivo.
-- JavaScript: Lógica de scroll infinito, búsqueda y descarga de gifs.
-- API de Giphy: Integración con la API de Giphy para obtener gifs.
-- Git: Control de versiones y colaboración en el desarrollo del proyecto.
+¡Espero que disfrutes usando InfinityGif tanto como yo lo disfruté creándolo!
 
-## Instalación y Uso
-
-Si deseas ejecutar InfinityGif en tu propio entorno local, sigue estos pasos:
-
-1. Clona este repositorio en tu máquina local:
-
-
-2. Abre el archivo `index.html` en tu navegador web.
-
-3. Explora y disfruta de la experiencia de scroll infinito de gifs.
-
-## Contribuciones
-
-Si deseas contribuir al desarrollo de InfinityGif, ¡estamos encantados de recibir tus aportes! Sigue estos pasos:
-
-1. Haz un fork de este repositorio.
-
-2. Realiza tus cambios y mejoras en tu propio fork.
-
-3. Envía un pull request describiendo las modificaciones que has realizado y por qué deberían ser incluidas en el proyecto.
-
-## Contacto
-
-Si tienes alguna pregunta, comentario o sugerencia, no dudes en ponerte en contacto con nosotros en [correo@example.com](mailto:correo@example.com) o a través de nuestras redes sociales.
-
-¡Esperamos que disfrutes usando InfinityGif tanto como nosotros disfrutamos creándolo!
-
----
-
-© 2023 InfinityGif. Este proyecto es distribuido bajo la licencia MIT. Consulta el archivo LICENSE para obtener más información.
+## 📜Licencia 
+© 2023 InfinityGif. Este proyecto es distribuido bajo la licencia [MIT](https://choosealicense.com/licenses/mit/). Consulta el archivo LICENSE para obtener más información.
