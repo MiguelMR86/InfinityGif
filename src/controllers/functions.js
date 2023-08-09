@@ -1,4 +1,4 @@
-const api_key='6pYvlhz33gSzgLGTycIsfcaZQJUAyUTB';
+const api_key = import.meta.env.VITE_GIPHY_API_KEY;
 const url = 'https://api.giphy.com/v1/gifs/search?api_key=' + api_key;
 const options = '&limit=10&offset=0&rating=g&lang=es&bundle=messaging_non_clips';
 
