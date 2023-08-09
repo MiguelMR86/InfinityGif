@@ -18,7 +18,7 @@ function Nav() {
                     variant="h1"
                     className="mr-4 ml-2 cursor-pointer py-1.5 text-4xl flex justify-center items-center gap-2"
                 >
-                    InfinitGif
+                    InfinityGif
                     <img className="w-[50px] h-[50px]" src="./img/Infinity-logo.png" alt="Infinity-logo" />
                 </Typography>
                 <div className="relative flex w-full gap-2 md:w-max">

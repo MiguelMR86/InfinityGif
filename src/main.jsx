@@ -5,10 +5,10 @@ import './index.css'
 
 import { ThemeProvider } from "@material-tailwind/react";
 import { ContextProvider } from "./context/Context";
-import { getGifs, getGifsByName, scrollToTopSmooth } from "./controllers/functions";
+import { getGifsByName, getNextGifs, scrollToTopSmooth } from "./controllers/functions";
 
 const provider = {
-  getGifs, getGifsByName, scrollToTopSmooth
+  getGifsByName, getNextGifs, scrollToTopSmooth
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(

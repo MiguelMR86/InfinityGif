@@ -3,10 +3,25 @@ import { Context } from "../context/Context";
 import GifCard from "./GifCard";
 
 function Main() {
-  const { gifs, handelGetGifs, search } = useContext(Context);
+  const { gifs, search, offset, setOffset, handelGetNextGifs, noMoreGifs } = useContext(Context);
 
   useEffect(() => {
-    handelGetGifs();
+    handelGetNextGifs();
+  }, [offset]);
+
+
+  const handelScroll = () => {
+    if (
+      document.documentElement.scrollTop + window.innerHeight + 1 >=
+      document.documentElement.scrollHeight
+    ) {
+      setOffset((prevOffset) => prevOffset + 10);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handelScroll);
+    return () => window.removeEventListener("scroll", handelScroll);
   }, []);
 
   return (
@@ -18,6 +33,12 @@ function Main() {
           Looks like there are no gifs for "{search}" 😢
         </h2>
       )}
+      {noMoreGifs && (
+        <h2 className="text-4xl font-bold text-center">
+          There are No more gifs for "{search}" 😢
+        </h2>
+      )}
+
     </main>
   );
 }
