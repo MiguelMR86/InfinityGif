@@ -5,8 +5,7 @@ Bienvenido a InfinityGif, una aplicación web que te permite explorar y descarga
 
 Para el desarrollo de InfinityGif he utilizado la [API](https://developers.giphy.com/explorer/) de GIPHY, la cual proporciona una gran cantidad de recursos como clips, gifs y stickers.
 
-![dbz-goku](https://github.com/MiguelMR86/InfinityGif/assets/90867675/2b21db33-8b44-46f0-8720-312b76d12c49)
-
+![infinity](https://github.com/MiguelMR86/InfinityGif/assets/90867675/0654cd27-112a-4743-9ba8-9a4195f1f5fe)
 
 ## Características
 - **Scroll Infinito:** Navega por una colección aparentemente interminable de gifs mientras haces scroll, sin necesidad de páginas adicionales.
