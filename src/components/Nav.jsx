@@ -14,7 +14,7 @@ function Nav() {
             <div className="flex flex-wrap items-center justify-between gap-y-4 text-blue-gray-900">
                 <Typography
                     as="a"
-                    href="#"
+                    href="/"
                     variant="h1"
                     className="mr-4 ml-2 cursor-pointer py-1.5 text-4xl flex justify-center items-center gap-2"
                 >

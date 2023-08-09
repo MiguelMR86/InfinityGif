@@ -14,7 +14,8 @@ function GifCard({ gif }) {
         <img
           src={gif.url}
           alt={gif.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover cursor-pointer"
+          onClick={() => window.open(gif.url, "_blank")}
         />
       </CardHeader>
       <CardBody>
