@@ -1,12 +1,23 @@
 import React, { useContext, useEffect } from "react";
 import { Context } from "../context/Context";
 import GifCard from "./GifCard";
+import Loader from "./Loader";
 
 function Main() {
-  const { gifs, search, offset, setOffset, handelGetNextGifs, noMoreGifs } = useContext(Context);
-  
+  const {
+    gifs,
+    search,
+    offset,
+    setOffset,
+    handelGetNextGifs,
+    noMoreGifs
+  } = useContext(Context);
+
   const handelScroll = () => {
-    if (document.documentElement.scrollTop + window.innerHeight + 1 >= document.documentElement.scrollHeight) {
+    if (
+      document.documentElement.scrollTop + window.innerHeight + 1 >=
+      document.documentElement.scrollHeight
+    ) {
       setOffset((prevOffset) => prevOffset + 10);
     }
   };
@@ -20,7 +31,9 @@ function Main() {
     return () => window.removeEventListener("scroll", handelScroll);
   }, []);
 
-  return (
+  return !gifs ? (
+    <Loader />
+  ) : (
     <main className="max-w-screen-xl flex flex-col items-center justify-evenly lg:flex-row lg:flex-wrap lg:gap-y-14 lg:mt-14 xl:gap-y-24 xl:mt-24 gap-y-4 mt-4 m-auto">
       {gifs && gifs.length > 0 ? (
         gifs.map((gif) => <GifCard gif={gif} key={gif.id} />)
@@ -34,7 +47,6 @@ function Main() {
           There are No more gifs for "{search}" 😢
         </h2>
       )}
-
     </main>
   );
 }

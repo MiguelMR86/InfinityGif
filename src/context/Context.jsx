@@ -8,7 +8,7 @@ export function ContextProvider({ children, value: { getGifsByName, getNextGifs,
     const [offset, setOffset] = useState(0);
     const [noMoreGifs, setNoMoreGifs] = useState(false);
 
-    const handelGetNextGifs = () => {
+    const handelGetNextGifs = async () => {
         getNextGifs(search, offset)
             .then((newGifs) => {
                 (gifs && gifs.length > 0)
@@ -17,7 +17,7 @@ export function ContextProvider({ children, value: { getGifsByName, getNextGifs,
                 (newGifs.length === 0) 
                     ? setNoMoreGifs(true)
                     : null;
-            });
+            })
     }
     
     const handelSearch = (value) => {
