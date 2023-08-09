@@ -52,7 +52,7 @@ Realiza los cambios y realiza commits con mensajes descriptivos: git commit -m "
 Envía tus cambios al repositorio: git push origin feature/nueva_funcion
 Abre un Pull Request describiendo tus cambios detalladamente.
 
-📱 ## Contacto
+## 📱 Contacto
 Si tienes alguna pregunta, problema o sugerencia, por favor abre un issue en el repositorio.
 
 ¡Espero que disfrutes usando InfinityGif tanto como yo lo disfruté creándolo!
