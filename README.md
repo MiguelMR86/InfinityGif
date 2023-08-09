@@ -55,7 +55,7 @@ Abre un Pull Request describiendo tus cambios detalladamente.
 ## 📱 Contacto
 Si tienes alguna pregunta, problema o sugerencia, por favor abre un issue en el repositorio.
 
-¡Espero que disfrutes usando InfinityGif tanto como yo lo disfruté creándolo!
+## ¡Espero que disfrutes usando InfinityGif tanto como yo lo disfruté creándolo!
 
 ## 📜Licencia 
 © 2023 InfinityGif. Este proyecto es distribuido bajo la licencia [MIT](https://choosealicense.com/licenses/mit/). Consulta el archivo LICENSE para obtener más información.
