@@ -42,10 +42,6 @@ $ npm run dev
 * React ( icons )
 * Material-Tailwind
 
-**Back-end**
-* Node
-* Vite
-
 ## 🤝 Contribuciones
 ¡Gracias por considerar contribuir a InfinityGif! Si deseas colaborar conmigo, por favor sigue estos pasos:
 
